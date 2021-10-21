@@ -1,0 +1,7 @@
+{
+  "name": "Checkmojo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
