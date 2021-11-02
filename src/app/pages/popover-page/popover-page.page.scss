@@ -1,0 +1,20 @@
+ion-header {
+    ion-toolbar {
+        --background:#181a47 !important;
+        --color:#ffffff;
+    }
+}
+
+ion-button {
+    --border-radius:7px;
+    --ion-color-primary :#94c11f;
+    --color:#ffffff;
+    --padding-top: 20px;
+    --padding-bottom:20px;
+}
+.text-center {
+    text-align: center;
+}
+.mt-1 {
+    margin-top: 1rem;
+}

@@ -1,0 +1,91 @@
+ion-header {
+    ion-toolbar {
+        --background:#181a47 !important;
+        --color:#ffffff;
+    }
+}
+ion-grid.gen_msz {
+    ion-col {
+        text-align: center;
+        font-size: 0.9rem;
+        color: #2b2a28;
+        opacity: 0.7;
+    }
+}
+
+ion-item-sliding {
+    margin-bottom: 10px;
+}
+ion-item {
+    --padding-start:0;
+    --padding-end:0;
+    --inner-padding-end:0;
+    ion-card {
+        margin: 1px 6px 1px;
+        border-left: 5px solid #d60909;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        --background: floralwhite;
+        --color:#262626;
+        width: 100%;
+        .badge-holder {
+            margin-top: 10px;
+            //position: absolute;
+            //right: 18px;
+            ion-card-subtitle {
+                display: flex;
+            }
+            ion-badge {
+                margin-right: 10px;
+                background-color: #181a47;
+                border-radius: 4px;
+                font-weight: 400;
+            }
+            ion-badge:last-child {
+                margin-right: 0;
+            }
+        }
+        ion-card-header {
+            padding-bottom: 10px;
+            ion-badge {
+                background-color: #181a47;
+                border-radius: 4px;
+                font-weight: 400;
+            }
+        }
+        ion-card-title {
+            margin-top: 0 !important;
+        }
+        ion-card-subtitle {
+            color:#262626;
+        }
+        ion-card-content {
+            --ion-grid-padding:0;
+            --ion-grid-column-padding:0;
+            font-size: 14px;
+            font-weight: 500;
+            ion-badge {
+                color: #181a47;
+                border-radius: 5px;
+            }
+            ion-text {
+                position: relative;
+                ion-icon {
+                    padding: 5px;
+                    background: brown;
+                    color: #ffffff;
+                    border-radius: 50%;
+                    font-size: 1.1rem;
+                    position: absolute;
+                    right: -37px !important;
+                    top: -6px;
+                }
+            }
+        }
+    }
+}
+ion-item-option{
+    ion-icon {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,78 @@
+ion-header {
+    ion-toolbar {
+        --background:#181a47 !important;
+        --color:#ffffff;
+    }
+}
+ion-item {
+    --padding-start:20px;
+    --padding-end:20px;
+    --color:#181a47;
+    --highlight-color-focused: #94c11f;
+    ion-label {
+        font-size: 1.1rem;
+    }
+}
+ion-item.item-has-focus ion-label {
+    color:#181a47 !important;
+}
+ion-grid {
+    --ion-grid-padding:15px;
+    padding-top: 5px;
+    ion-img {
+        border:1px solid rgb(151, 151, 151);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    ion-col {
+        position: relative;
+    }
+    ion-col:not(.excam):hover .ovrly-cont:not(.cm-cnt) {
+        opacity: 1;
+    }
+    .ovrly-cont.cm-cnt {
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        overflow: hidden;
+        background: #08080896;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 2.5rem;
+        color: #ffffff;
+        opacity: 1;
+        border-radius: 10px;
+    }
+    .ovrly-cont {
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        overflow: hidden;
+        background: #08080896;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 2.5rem;
+        color: #ffffff;
+        border-radius: 10px;
+        opacity: 0;
+        transition: 0.2s opacity ease-in-out;
+    }
+    .btn-wrapper {
+        margin-top: 1.3rem;
+    }
+    ion-button {
+        --border-radius:7px;
+        --ion-color-primary :#94c11f;
+        --color:#ffffff;
+        --padding-top: 20px;
+        --padding-bottom:20px;
+    }
+}

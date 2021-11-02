@@ -1,0 +1,38 @@
+<ion-header translucent="true" class="ion-no-border">
+  <!-- <ion-toolbar>
+    <ion-title>Splash</ion-title>
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content>
+  <ion-card class="top-gap">
+    <div class="hero-block-styles">
+      <div class="hb-styles2"></div>
+      <div class="hb-styles2-2"></div>
+      <div class="hb-styles3"></div>
+    </div>
+    <ion-img class="sm-height" src="assets/images/Check-Mojo-Logo.png"></ion-img>
+    <ion-img class="mb-4" src="assets/images/staff-splash.png"></ion-img>
+    <ion-card-content>
+      <div class="form-box text-center">
+        <h3>Login to continue</h3>
+        <ion-item>
+          <ion-label position="stacked">Email</ion-label>
+          <ion-input placeholder="john@example.com" clearInput type="email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="stacked">Password</ion-label>
+          <ion-input placeholder="············" type="password" name="password" [type]="showPassword ? 'text' : 'password'"></ion-input>
+          <ion-icon [name]="passwordToggleIcon" (click)="togglePassword()" size="small" slot="end"></ion-icon>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-label>Remember Me</ion-label>
+          <ion-checkbox slot="start"></ion-checkbox>
+        </ion-item>
+        <div class="btn-wrap">
+          <ion-button [routerLink]="['/dashboard']" expand="full" fill="solid" shape="round">Login</ion-button>
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

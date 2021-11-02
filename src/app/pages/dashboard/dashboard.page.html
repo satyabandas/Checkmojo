@@ -1,0 +1,110 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Task Dashboard</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="power-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid class="gen_msz">
+    <ion-row>
+      <ion-col size="12">
+        Slide Left to Complete the task
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-item-group>
+    <!-- <ion-item-divider>
+      <ion-label>22-10-2021</ion-label>
+    </ion-item-divider> -->
+    
+    <ion-item-sliding>
+      <ion-item lines="none">
+        <ion-card>
+          <ion-card-header>
+            <div>
+              <ion-badge>22-10-2021</ion-badge>
+            </div>
+            <ion-card-title>Task Name: Terminal</ion-card-title>
+            <ion-card-subtitle>Machine Name: Recuperator</ion-card-subtitle>
+            <div class="badge-holder">
+              <ion-card-subtitle class="sub-type">
+                <span>Data Type:&nbsp;</span>
+                <ion-badge>Photo</ion-badge>
+                <ion-badge>Data</ion-badge>
+              </ion-card-subtitle>
+            </div>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <ion-grid >
+              <ion-row>
+                <ion-col size="12">
+                  <!-- <ion-icon name="calendar-outline"></ion-icon>&nbsp; -->
+                  <ion-text>Reschedule Date: 25-10-2021 <ion-icon name="create-outline" (click)="reschedule(item)"></ion-icon></ion-text>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-card-content>
+        </ion-card>
+      </ion-item>
+      <!-- <ion-item-options side="start">
+        <ion-item-option color="secondary" (click)="reschedule(item)">
+          <ion-icon slot="top" name="calendar-number-outline"></ion-icon>&nbsp;Reschedule
+        </ion-item-option>
+      </ion-item-options> -->
+      <ion-item-options side="end">
+        <ion-item-option color="success" (click)="complete(item)">
+          <ion-icon slot="top" name="checkmark-outline"></ion-icon>&nbsp;Mark Completed
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item lines="none">
+        <ion-card>
+          <ion-card-header>
+            <div>
+              <ion-badge>15-10-2021</ion-badge>
+            </div>
+            <ion-card-title>Task Name: Roll change</ion-card-title>
+            <ion-card-subtitle>Machine Name: Shaper mc no 1</ion-card-subtitle>
+            <div class="badge-holder">
+              <ion-card-subtitle class="sub-type">
+                <span>Data Type:&nbsp;</span>
+                <ion-badge>Photo</ion-badge>
+              </ion-card-subtitle>
+            </div>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <ion-grid >
+              <ion-row>
+                <ion-col size="12">
+                  <!-- <ion-icon name="calendar-outline"></ion-icon>&nbsp; -->
+                  <ion-text>Reschedule Date: N/A</ion-text>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-card-content>
+        </ion-card>
+      </ion-item>
+      <!-- <ion-item-options side="start">
+        <ion-item-option color="secondary" (click)="reschedule(item)">
+          <ion-icon slot="top" name="calendar-number-outline"></ion-icon>&nbsp;Reschedule
+        </ion-item-option>
+      </ion-item-options> -->
+      <ion-item-options side="end">
+        <ion-item-option color="success" (click)="complete(item)">
+          <ion-icon slot="top" name="checkmark-outline"></ion-icon>&nbsp;Mark Completed
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-item-group>
+</ion-content>

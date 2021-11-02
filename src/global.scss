@@ -24,3 +24,33 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+// @font-face{font-family:'Siri';src:url('assets/fonts/Siri-Regular.eot?#iefix') format('embedded-opentype'),
+// url('assets/fonts/Siri-Regular.otf') format('opentype'),
+// url('assets/fonts/Siri-Regular.woff') format('woff'),
+// url('assets/fonts/Siri-Regular.ttf') format('truetype'),
+// url('assets/fonts/Siri-Regular.svg#Siri-Regular') format('svg');font-weight:400;font-style:normal;}
+// @font-face{font-family:'Siri';src:url('assets/fonts/Siri-Bold.eot?#iefix') format('embedded-opentype'),
+// url('assets/fonts/Siri-Bold.otf') format('opentype'),
+// url('assets/fonts/Siri-Bold.woff') format('woff'),
+// url('assets/fonts/Siri-Bold.ttf') format('truetype'),
+// url('assets/fonts/Siri-Bold.svg#Siri-Bold') format('svg');font-weight:700;font-style:normal;}
+// @font-face{font-family:'Siri';src:url('assets/fonts/Siri-Light.eot?#iefix') format('embedded-opentype'),
+// url('assets/fonts/Siri-Light.otf') format('opentype'),
+// url('assets/fonts/Siri-Light.woff') format('woff'),
+// url('assets/fonts/Siri-Light.ttf') format('truetype'),
+// url('assets/fonts/Siri-Light.svg#Siri-Light') format('svg');font-weight:300;font-style:normal;}
+// @font-face{font-family:'Siri';src:url('assets/fonts/Siri-Medium.eot?#iefix') format('embedded-opentype'),
+// url('assets/fonts/Siri-Medium.otf') format('opentype'),
+// url('assets/fonts/Siri-Medium.woff') format('woff'),
+// url('assets/fonts/Siri-Medium.ttf') format('truetype'),
+// url('assets/fonts/Siri-Medium.svg#Siri-Medium') format('svg');font-weight:500;font-style:normal;}
+// @font-face{font-family:'Siri';src:url('assets/fonts/Siri-Thin.eot?#iefix') format('embedded-opentype'),
+// url('assets/fonts/Siri-Thin.otf') format('opentype'),
+// url('assets/fonts/Siri-Thin.woff') format('woff'),
+// url('assets/fonts/Siri-Thin.ttf') format('truetype'),
+// url('assets/fonts/Siri-Thin.svg#Siri-Thin') format('svg');font-weight:100;font-style:normal;}
+
+// html{--ion-font-family:'Siri', sans-serif; }
+html {--ion-font-family: "Poppins", sans-serif;}
